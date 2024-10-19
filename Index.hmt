@@ -1,0 +1,222 @@
+
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Somesh's Ringtone App</title>
+<meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <link href='https://dl.dropbox.com/s/7v3jvey3iqomxiy/RingtonesappMainFurqan.css?dl=0' rel="stylesheet">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+        <link href='https://fonts.googleapis.com/css?family=Crimson Text' rel="stylesheet">
+         <link href='https://fonts.googleapis.com/css?family=Cedarville Cursive' rel="stylesheet">         
+        <link href='https://fonts.googleapis.com/css?family=Benne' rel="stylesheet">
+          <link href='https://fonts.googleapis.com/css?family=Akaya Telivigala' rel="stylesheet">
+          <link rel="stylesheet" href=""> 
+<link href="https://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css"> 
+          <script src="https://dl.dropbox.com/s/aezusc4hyoh4g87/RingtonesAppMain%28Furqan%29.js?dl=0"></script>
+</head>
+<body id="body" class="preload">
+    <h1 class="loadit">♡Loading...</h1>
+   <center><footer>&copy System</footer></center>
+<content>
+    <header class="header thm theme_a">
+        <button class="header__button" id="btnNav" type="button">
+            <i class="material-icons">menu</i>
+        </button><p class="header__h3">Ringtones App</p><span onclick="open_pop_up3()" class="fleft">&#9779;</span>
+    </header>
+    <nav class="nav">
+        <div class="thm theme_a nav__links">
+         <div class="nav__closebtn theme_a thm ">
+        <p style='margin-left:6vw' class="nav_header_text" align="center">Ringtones</p>  <span class="nav-cl">&#8592;</span>
+        </div>
+        <p  align="center" class="nav_name">Somesh Chinku Singh(System)</p>
+         <p  class="nav_header_user_email" align="center">somesh572000@gmail.com</p>
+         <hr>
+            <a   onclick="lite_mode()" href="#" class="nav__link">
+                <i>&#9788;</i>
+                Light Mode
+            </a>
+            <a  onclick="dark_mode()" id='compose' class="nav__link nav__link" href="#">
+                <i>&#9789;</i>
+                Dark Mode
+            </a>          
+            <p align="center" class="nav_copyright"><u>&copy #System </u></p>            
+        </div>  
+        <div class="nav__overlay"></div>      
+    </nav>
+    <main>
+<body> 
+</div>
+<input disabled  oninput="Search()" id="s_e_a_r_c_h" placeholder="Search Music" class="search"></inp>   
+<button class="srchbtn theme_a thm" onclick="open_pop_up2()">✏</button>
+<div id="caroslider" tags="" style="width:90vw" img="" title="${tit}" song=${mp3} onclick="Song(this)" class="musicard fullc">
+<musico style="width:90vw">
+<span class="plxply theme_a thm">▷</span>
+<span id="carotit" style="width:90vw" class="titlespan theme_a thm 90vw"></span>
+</musico>
+</div>
+<span>
+</span>
+ <div class="dot-container">
+            <button class="theme_a thm dots"></button>
+            <button class="theme_a thm dots"></button>
+            <button class="theme_a thm dots"></button>
+            <button class="theme_a thm dots"></button>
+        </div>
+   <p class="gt">Most Played</p>
+    <center>
+    <hr height="2px" width="80%"/>
+    </center>
+<div class="scrollci" id="ist01column">
+</div>
+    <p class="gt">Game Themes</p>
+    <center>
+    <hr height="2px" width="80%"/>
+    </center>
+<div class="scrollci" id="istcolumn">
+</div>
+   <p class="gt">Instrumental & Mix</p>
+    <center><hr height="2px" width="80%"/></center>
+<div class="scrollci"  id="sndcolumn">
+</div>
+  <p class="gt">Popular </p>
+    <center><hr height="2px" width="80%"/></center>
+<div  class="scrollci"  id="thdcolumn">
+</div>
+ <p class="gt">Bollywood  </p>
+    <center><hr height="2px" width="80%"/></center>
+<div  class="scrollci"  id="fthcolumn">
+</div>
+<center><p class="linear-wipe theme_a thm mycopyrights">&copy System</p></center>
+<div id="spacecreator"></div>
+<div id="miniplayer">
+  <audio  id="fixedaudioplayer" preload="none" controls> 
+<source src="https://mobcup.net/d/gszjnaif/mp3/Free Fire Intro.mp3"> 
+</audio> </div>
+<div id="menu_container">
+<div id="menu_self">
+<div id="menu_content">
+<div id="menu_head">
+Song Details
+</div>
+<div onclick="close_pop_up()" id="menu_close">
+<span id="s_p_a_n">×</span>
+</div>
+<div id="actual_txt">
+      <p class="" id="actual"></p>
+     <span class="dura">Total Duration:</span><span class="white" id="ShowDuration"></span>
+      <img src="" id="thatsimg" class="thatsimg"/>
+      <center><button class="white noborder theme_a thm " id="lyrcbtn" lyrics="" onclick="LyricsFind(this)">Lyrics</button></center>
+      </p>
+</div>
+</div>
+</div>
+</div></div>
+<div id="newlyrics" class="menu_container">
+<div class="menu_self notop">
+<div class="menu_content">
+<div class="menu_head">
+Lyrics 
+</div>
+<div onclick="close_pop_up_class()" id="menu_close">
+<span class="s_p_a_n">×</span>
+</div>
+<div id=""  class="actual_txt">      
+      <div id="lyr" class="heyboy">          
+      </div>
+      <center><button id="copylyrbtn" class="white noborder theme_a thm " onclick="copy(this)">Copylyrics</button></center>
+</div>
+</div>
+</div></div>
+<div id="menu_container3">
+<div id="menu_self3">
+<div id="menu_content3">
+<div id="menu_head3">
+Choose Theme
+</div>
+<div onclick="close_pop_up3()" id="menu_close3">
+<span id="s_p_a_n3">×</span>
+</div>
+<div id="actual_txt3">
+      <span  onclick="theme_a()" class="demotheme theme_a">abc</span>        
+          <span  onclick="theme_b()" class="demotheme theme_b">abc</span>        
+          <span  onclick="theme_c()" class="demotheme theme_c">abc</span>         
+          <span  onclick="theme_d()" class="demotheme theme_d">abc</span>         
+          <span  onclick="theme_e()" class="demotheme theme_e">abc</span>
+         <br><br><br>
+          <span  onclick="theme_f()" class="demotheme theme_f">abc</span>        
+          <span  onclick="theme_g()" class="demotheme theme_g">abc</span>         
+          <span  onclick="theme_h()" class="demotheme theme_h">abc</span>         
+          <span  onclick="theme_i()" class="demotheme theme_i">abc</span>
+         
+          <span  onclick="theme_j()" class="demotheme theme_j">abc</span>    
+      </p>
+</div>
+</div>
+</div>
+</div></div>
+<div id="menu_container2">
+<div id="menu_self2">
+<div id="menu_content2">
+<div id="menu_head2">
+Keyboard
+</div>
+<div onclick="close_pop_up2()" id="menu_close2">
+<span id="s_p_a_n2">×</span>
+</div>
+<div id="actual_txt2">
+      <p id="actual2"></p>
+      <button  class="srch thm theme_a"    onclick="addword('a')">A</button>
+      <button  class="srch thm theme_a"    onclick="addword('b')">B</button>
+      <button   class="srch thm theme_a"    onclick="addword('c')">C</button>
+    <button   class="srch thm theme_a"    onclick="addword('d')">D</button>
+    <button   class="srch thm theme_a"    onclick="addword('e')">E</button>
+    <button   class="srch thm theme_a"    onclick="addword('f')">F</button>
+    <button   class="srch thm theme_a"    onclick="addword('g')">G</button>
+    <button   class="srch thm theme_a"    onclick="addword('h')">H</button>
+    <button   class="srch thm theme_a"    onclick="addword('i')">I</button>
+    <button   class="srch thm theme_a"    onclick="addword('j')">J</button>
+      <button   class="srch thm theme_a"    onclick="addword('k')">K</button>
+    <button   class="srch thm theme_a"    onclick="addword('l')">L</button>
+    <button   class="srch thm theme_a"    onclick="addword('m')">M</button>
+    <button   class="srch thm theme_a"    onclick="addword('n')">N</span>
+    <button   class="srch thm theme_a"    onclick="addword('o')">O</button>
+    <button   class="srch thm theme_a"    onclick="addword('p')">P</button>
+    <button   class="srch thm theme_a"    onclick="addword('q')">Q</button>
+      <button   class="srch thm theme_a"    onclick="addword('r')">R</button>
+    <button  class="srch thm theme_a"    onclick="addword('s')">S</button>
+    <button   class="srch thm theme_a"    onclick="addword('t')">T</button>
+    <button   class="srch thm theme_a"    onclick="addword('u')">U</button>
+    <button   class="srch thm theme_a"    onclick="addword('v')">V</button>
+    <button   class="srch thm theme_a"    onclick="addword('w')">W</button>
+    <button   class="srch thm theme_a"    onclick="addword('x')">X</button>
+      <button   class="srch thm theme_a"    onclick="addword('y')">Y</button>
+      <button   class="srch thm theme_a"    onclick="addword('z')">Z</butto   
+      <button   class="srch thm theme_a"    onclick="addword('0')">0</button> 
+    <button   class="srch thm theme_a"    onclick="addword('1')">1</button> 
+    <button   class="srch thm theme_a"    onclick="addword('2')">2</button>
+       <button   class="srch thm theme_a"    onclick="addword('3')">3</button      
+    <button   class="srch thm theme_a"    onclick="addword('4')">4</button> 
+    <button   class="srch thm theme_a"    onclick="addword('5')">5</button>   
+    <button   class="srch thm theme_a"    onclick="addword('6')">6</button>
+      <button   class="srch thm theme_a"    onclick="addword('7')">7</button>    
+    <button   class="srch thm theme_a"    onclick="addword('8')">8</button>    
+    <button   class="srch thm theme_a"    onclick="addword('9')">9</button>
+        <button   class="srch thm theme_a"    onclick="addword(' ')">Space</button>     
+      <button   class="srch thm theme_a"    onclick="backspace()">ClearAll</button>
+        </p>
+</div>
+</div>
+</div>
+</div></div>
+</content>
+<script>
+$(function() {
+$('audio').audioPlayer();
+});
+</script> 
+<script>
+    open_pop_up3()
+</script>
